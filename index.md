@@ -10,21 +10,21 @@ Table of Contents
 # Introduction
 
 Continuous Integration (CI) has become widely adopted software development
-practice and something we use in the Imperial Research Software Engineering
-group as a matter of course. I don't want to spend many column inches defining
-Continuous Integration or what you gain by doing it so I'll let the Software
-Sustainability Institute [do that for me][SSI]. Suffice it to say that CI is a
-vital tool as soon as you want your software to run on more than one computer or
-expect more than one person to contribute to it.
+practice and something used in many Research Software Engineering groups as a
+matter of course. CI has an important role in keeping research sustainable and
+reproducible. It helps to define and enforce common standards for development
+whilst ensuring code is portable and runs correctly on different systems. For
+further details on the value of CI for research software the Software
+Sustainability Institute has a good [blog post][SSI].
 
 [SSI]: https://software.ac.uk/using-continuous-integration-build-and-test-your-software
 
 This document is aimed at developers or maintainers of research software who are
 interested in current best practice for CI. It should be of interest whether you
 are looking at setting up CI for the first time or reviewing an existing
-setup. This document aims to provide a (somewhat opinionated) overview of the
-different options for using CI with your code and how to address common
-challenges faced by research software.
+setup. It aims to provide a (somewhat opinionated) overview of the different
+options for using CI with your code and how to address common challenges faced
+by research software.
 
 This is a living document that is intended to be updated to reflect best
 practice and the ever changing technology landscape around CI. This document is
@@ -47,14 +47,14 @@ anyway.
 
 To get up and running with CI there are two major choices to make:
 
-1. Which software/service you will use (we'll call this the `front-end`)
-1. Where the compute power for your CI jobs will come from (we'll call this the
+1. Which software/service you will use (lets call this the `front-end`)
+1. Where the compute power for your CI jobs will come from (lets call this the
    `back-end`)
 
 Both of these will be impacted by the individual circumstances and requirements
-of your project. We'll start by providing a high-level overview of the different
-options available then consider how the differing requirements of a project
-might influence or constrain your choices.
+of your project. A high-level overview of the different options available is
+provided below followed by discussion of how the differing requirements of a
+project might influence or constrain your choices.
 
 # CI Overview
 
@@ -136,7 +136,7 @@ projects across a group or department.
 
 ## Recommendations
 
-We suggest the below ordering in terms of preference for a CI setup:
+Different CI setup options are list below in order of preference.
 
 1. Use the `front-end` and `back-end` provided by your version control host
    i.e. GitHub Actions or GitLab CI.
@@ -162,8 +162,8 @@ considerably between offerings.
 # CI for Research Software
 
 Having described the lay of the land and suggested some ideological preferences
-we now consider the particular challenges posed by CI for research software and
-how these might influence the choices you make.
+the particular challenges posed by CI for research software and how these might
+influence the choices you make are now considered.
 
 ## General advice
 
@@ -185,8 +185,8 @@ how these might influence the choices you make.
 
 The capabilities of available CI systems often reflect the requirements of
 commercial or open-source software rather than typical research software. In
-this section we discuss some of challenges that can arise when using CI with
-research software.
+this section some of challenges that can arise when using CI with research
+software are discussed.
 
 ### Computational Intensiveness
 
@@ -291,8 +291,8 @@ can be readily used via Docker.
 
 # Case Studies
 
-Finally we have a couple of case studies that have gone in different directions
-when setting up their CI. We try to examine the different challenges faced by
-each project and why they made different choices.
+Finally there are a couple of case studies for projects that have gone in
+different directions when setting up their CI. We try to examine the different
+challenges faced by each project and why they made different choices.
 
 [Case Studies](case-studies.html)
