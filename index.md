@@ -41,6 +41,10 @@ We maintain a [list of research software projects](examples.md) that use CI. You
 can add your own to share your experiences of CI with the community. Just use
 the link at the top of the page.
 
+If you're a CI enthusiast then consider volunteering as an editor/maintainer for
+this document. Please [raise an issue]({{ site.github.repository_url }}/issues)
+explaining your backgrounds and interest to be considered.
+
 ## Use Your Research Software Engineers
 
 Before setting up a CI system consider getting in touch with your [local
