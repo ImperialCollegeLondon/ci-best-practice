@@ -26,14 +26,20 @@ setup. It aims to provide a (somewhat opinionated) overview of the different
 options for using CI with your code and how to address common challenges faced
 by research software.
 
+## Get Involved
+
 This is a living document that is intended to be updated to reflect best
 practice and the ever changing technology landscape around CI. This document is
 mainly written for those developing research software in an academic setting. If
 you think anything in this document is out of date (or you just plain disagree)
-then please feel free to create an issue in the [GitHub
-repo]({{ site.github.repository_url }}) to discuss. If you'd like to write
-anything for inclusion please see
-[CONTRIBUTING.md]({{ site.github.repository_url }}/CONTRIBUTING.md).
+then please feel free to create an issue in the [GitHub repo]({{
+site.github.repository_url }}) to discuss. If you'd like to write anything for
+inclusion please see [CONTRIBUTING.md]({{ site.github.repository_url
+}}/CONTRIBUTING.md).
+
+We maintain a [list of research software projects](examples.md) that use CI. You
+can add your own to share your experiences of CI with the community. Just use
+the link at the top of the page.
 
 ## Use Your Research Software Engineers
 
