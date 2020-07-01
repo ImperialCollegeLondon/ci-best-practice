@@ -299,6 +299,11 @@ CI services are now offering hosted Linux, Windows and Mac `runners`
 however. Whilst typically only one Linux distribution will be available others
 can be readily used via Docker.
 
+# Community Examples
+
+To gain some insight into commonly used approaches we maintain a [list of
+examples](examples.md). Feel free to add details of your own software.
+
 # Case Studies
 
 Finally there are a couple of case studies for projects that have gone in
