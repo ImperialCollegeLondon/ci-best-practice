@@ -6,5 +6,6 @@ below links:
 
 * [Germany](https://de-rse.org/en/map.html)
 * [Netherlands](https://nl-rse.org/pages/community.html)
+* [Nordic Countries](https://nordic-rse.org/)
 * [UK](https://society-rse.org/community/rse-groups/)
 * [USA](http://us-rse.org/rse-groups/)
