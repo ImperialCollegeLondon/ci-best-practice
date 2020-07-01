@@ -302,7 +302,7 @@ can be readily used via Docker.
 # Community Examples
 
 To gain some insight into commonly used approaches we maintain a [list of
-examples](examples.md). Feel free to add details of your own software.
+examples](examples.html). Feel free to add details of your own software.
 
 # Case Studies
 
